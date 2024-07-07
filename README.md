@@ -65,7 +65,7 @@
 
     print("입력 문장:", prompt)
     print("출력 문장:", output)
-    
+    ```
 
 ## wandb 설정
 모델 학습 중 메트릭을 추적하려면 [wandb](https://wandb.ai/) 계정을 생성하고, 아래와 같이 설정합니다.
@@ -86,7 +86,7 @@
 
     val_metrics = {'val_loss': val_loss / len(val_dataloader)}
     wandb.log(val_metrics, step=epoch)
-    
+    ```
 
 위 코드에서는 `wandb.init()`을 통해 프로젝트를 초기화하고, 학습 중 각 에폭마다 `wandb.log()`를 사용하여 학습 및 검증 손실을 기록합니다.
 
