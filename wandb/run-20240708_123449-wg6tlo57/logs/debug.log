@@ -1,0 +1,32 @@
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_setup.py:_flush():76] Current SDK version is 0.17.4
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_setup.py:_flush():76] Configure stats pid to 14548
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_setup.py:_flush():76] Loading settings from /Users/Woo/.config/wandb/settings
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_setup.py:_flush():76] Loading settings from /Users/Woo/Desktop/kaist/1-1/NLP-Summer/Transformer 구현/wandb/settings
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_init.py:_log_setup():529] Logging user logs to /Users/Woo/Desktop/kaist/1-1/NLP-Summer/Transformer 구현/wandb/run-20240708_123449-wg6tlo57/logs/debug.log
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_init.py:_log_setup():530] Logging internal logs to /Users/Woo/Desktop/kaist/1-1/NLP-Summer/Transformer 구현/wandb/run-20240708_123449-wg6tlo57/logs/debug-internal.log
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_init.py:_jupyter_setup():475] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x3345b5520>
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_init.py:init():569] calling init triggers
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {'architecture': 'transformer_chatbot_decoderloop', 'dataset': 'ChatbotData_KorQuAD', 'batch_size': 64, 'lr': 1e-05, 'epochs': 100, 'n_seq': 78, 'n_vocab': 8007, 'n_dim': 256, 'n_head': 4, 'n_layer': 3, 'loss_fn': 'CrossEntropyLoss', 'optimizer': 'Adam'}
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_init.py:init():619] starting backend
+2024-07-08 12:34:49,413 INFO    MainThread:14548 [wandb_init.py:init():623] setting up manager
+2024-07-08 12:34:49,414 INFO    MainThread:14548 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-07-08 12:34:49,415 INFO    MainThread:14548 [wandb_init.py:init():631] backend started and connected
+2024-07-08 12:34:49,417 INFO    MainThread:14548 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-07-08 12:34:49,418 INFO    MainThread:14548 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-08 12:34:49,418 INFO    MainThread:14548 [wandb_init.py:init():720] updated telemetry
+2024-07-08 12:34:49,426 INFO    MainThread:14548 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-08 12:34:49,889 INFO    MainThread:14548 [wandb_run.py:_on_init():2402] communicating current version
+2024-07-08 12:34:49,932 INFO    MainThread:14548 [wandb_run.py:_on_init():2411] got version response 
+2024-07-08 12:34:49,933 INFO    MainThread:14548 [wandb_init.py:init():804] starting run threads in backend
+2024-07-08 12:34:51,890 INFO    MainThread:14548 [wandb_run.py:_console_start():2380] atexit reg
+2024-07-08 12:34:51,890 INFO    MainThread:14548 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-07-08 12:34:51,890 INFO    MainThread:14548 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-07-08 12:34:51,891 INFO    MainThread:14548 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-07-08 12:34:51,891 INFO    MainThread:14548 [wandb_init.py:init():847] run started, returning control to user process
+2024-07-08 12:34:57,895 INFO    MainThread:14548 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-08 12:34:57,895 INFO    MainThread:14548 [wandb_init.py:_pause_backend():440] pausing backend

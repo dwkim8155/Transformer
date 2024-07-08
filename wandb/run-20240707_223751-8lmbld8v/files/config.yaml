@@ -1,0 +1,70 @@
+wandb_version: 1
+
+architecture:
+  desc: null
+  value: transformer_chatbot
+dataset:
+  desc: null
+  value: ChatBotDataset
+batch_size:
+  desc: null
+  value: 64
+lr:
+  desc: null
+  value: 1.0e-05
+epochs:
+  desc: null
+  value: 100
+n_seq:
+  desc: null
+  value: 43
+n_vocab:
+  desc: null
+  value: 8007
+n_dim:
+  desc: null
+  value: 256
+n_head:
+  desc: null
+  value: 4
+n_layer:
+  desc: null
+  value: 3
+loss_fn:
+  desc: null
+  value: CrossEntropyLoss
+optimizer:
+  desc: null
+  value: Adam
+_wandb:
+  desc: null
+  value:
+    python_version: 3.12.4
+    cli_version: 0.17.4
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1720359471
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      - 61
+      4: 3.12.4
+      5: 0.17.4
+      8:
+      - 1
+      - 4
+      - 5
+      13: darwin-arm64

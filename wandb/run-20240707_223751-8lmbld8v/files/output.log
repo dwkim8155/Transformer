@@ -1,0 +1,95 @@
+
+epoch:   0%|          | 0/100 [00:00<?, ?it/s]
+**********epoch1 train start**********
+epoch: 1, loss: 8.66201400756836
+epoch: 1, loss: 3.606703758239746
+epoch: 1, loss: 2.6895408630371094
+epoch: 1, loss: 2.4667763710021973
+epoch: 0, train_loss: 3.802044463014888
+**********train end**********
+**********eval start**********
+best model saved
+epoch: 1, val_loss: 2.4334657694164075
+Q: 화장 열심히 했는데
+Pred:
+Label: 다음에는 픽서를 사용해보세요.
+**********eval end**********
+**********epoch2 train start**********
+
+epoch:   1%|1         | 1/100 [00:20<34:09, 20.70s/it]
+epoch: 2, loss: 2.2475671768188477
+epoch: 2, loss: 2.2343575954437256
+epoch: 2, loss: 2.071077346801758
+epoch: 1, train_loss: 2.2624987877771527
+**********train end**********
+
+epoch:   2%|2         | 2/100 [00:40<32:36, 19.96s/it]
+best model saved
+epoch: 2, val_loss: 2.186152307610763
+Q: 눈 뜨면 생각나는 사람
+Pred:
+Label: 깊은 사랑에 빠지셨군요.
+**********eval end**********
+**********epoch3 train start**********
+epoch: 3, loss: 2.1312944889068604
+epoch: 3, loss: 2.061809778213501
+
+epoch:   3%|3         | 3/100 [00:59<31:49, 19.69s/it]
+epoch: 3, loss: 1.855584740638733
+epoch: 2, train_loss: 1.99951404011892
+**********train end**********
+**********eval start**********
+best model saved
+epoch: 3, val_loss: 2.0750604115034403
+Q: 부산 갈까?
+Pred: 요요
+Label: 여행은 항상 좋죠.
+**********eval end**********
+**********epoch4 train start**********
+epoch: 4, loss: 1.8244894742965698
+epoch: 4, loss: 1.9776595830917358
+epoch: 4, loss: 1.705358862876892
+epoch: 4, loss: 1.683684229850769
+epoch: 3, train_loss: 1.8134928085132986
+**********train end**********
+
+epoch:   4%|4         | 4/100 [01:18<31:21, 19.59s/it]
+best model saved
+epoch: 4, val_loss: 1.975477231176276
+Q: 낚시 재밌을까
+Pred: 요요요.
+Label: 한 번 빠지면 헤어나올 수 없다고 해요.
+**********eval end**********
+**********epoch5 train start**********
+epoch: 5, loss: 1.9028468132019043
+epoch: 5, loss: 1.7251579761505127
+
+epoch:   5%|5         | 5/100 [01:37<30:41, 19.38s/it]
+epoch: 5, loss: 1.7405701875686646
+epoch: 4, train_loss: 1.6864794035871586
+**********train end**********
+**********eval start**********
+best model saved
+epoch: 5, val_loss: 1.9084391782158299
+Q: 조명빨인가
+Pred: 요요요요.
+Label: 멋져 보여요!
+**********eval end**********
+**********epoch6 train start**********
+epoch: 6, loss: 1.5605595111846924
+epoch: 6, loss: 1.547574758529663
+epoch: 6, loss: 1.4631285667419434
+epoch: 6, loss: 1.5049159526824951
+epoch: 5, train_loss: 1.5842368738380022
+**********train end**********
+
+epoch:   6%|6         | 6/100 [01:56<30:06, 19.22s/it]
+best model saved
+epoch: 6, val_loss: 1.8667695396824886
+Q: 썸 타는 사람 생일이야. 선물 사야 해?
+Pred: 요요요요요요.
+Label: 서로에게 부담 없는 작은 선물이 좋아요.
+**********eval end**********
+**********epoch7 train start**********
+epoch: 7, loss: 1.5987800359725952
+

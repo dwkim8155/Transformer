@@ -1,0 +1,41 @@
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_setup.py:_flush():76] Current SDK version is 0.17.4
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_setup.py:_flush():76] Configure stats pid to 20182
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_setup.py:_flush():76] Loading settings from /Users/Woo/.config/wandb/settings
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_setup.py:_flush():76] Loading settings from /Users/Woo/Desktop/kaist/1-1/NLP-Summer/Transformer 구현/wandb/settings
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_init.py:_log_setup():529] Logging user logs to /Users/Woo/Desktop/kaist/1-1/NLP-Summer/Transformer 구현/wandb/run-20240708_150543-dvbz0iyd/logs/debug.log
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_init.py:_log_setup():530] Logging internal logs to /Users/Woo/Desktop/kaist/1-1/NLP-Summer/Transformer 구현/wandb/run-20240708_150543-dvbz0iyd/logs/debug-internal.log
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_init.py:init():569] calling init triggers
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {'architecture': 'transformer_decoderloop', 'dataset': 'ChatbotData', 'batch_size': 64, 'lr': 0.0001, 'epochs': 100, 'n_seq': 43, 'n_vocab': 8007, 'n_dim': 256, 'n_head': 4, 'n_layer': 2, 'loss_fn': 'CrossEntropyLoss', 'optimizer': 'Adam'}
+2024-07-08 15:05:43,109 INFO    MainThread:20182 [wandb_init.py:init():594] re-initializing run, found existing run on stack: dvbz0iyd
+2024-07-08 15:05:43,112 INFO    MainThread:20182 [wandb_run.py:_finish():2109] finishing run boostcamp-oif/Transformer_ChatBot/dvbz0iyd
+2024-07-08 15:05:43,113 ERROR   MainThread:20182 [jupyter.py:save_history():436] Run pip install nbformat to save notebook history
+2024-07-08 15:05:43,113 INFO    MainThread:20182 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-08 15:05:43,113 INFO    MainThread:20182 [wandb_init.py:_jupyter_teardown():457] cleaning up jupyter logic
+2024-07-08 15:05:43,113 INFO    MainThread:20182 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-07-08 15:05:43,114 INFO    MainThread:20182 [wandb_run.py:_restore():2332] restore
+2024-07-08 15:05:43,114 INFO    MainThread:20182 [wandb_run.py:_restore():2338] restore done
+2024-07-08 15:05:49,190 INFO    MainThread:20182 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-08 15:05:49,192 INFO    MainThread:20182 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-08 15:05:49,205 INFO    MainThread:20182 [wandb_run.py:_footer_sync_info():3950] logging synced files
+2024-07-08 15:05:49,382 INFO    MainThread:20182 [wandb_init.py:init():619] starting backend
+2024-07-08 15:05:49,382 INFO    MainThread:20182 [wandb_init.py:init():623] setting up manager
+2024-07-08 15:05:49,385 INFO    MainThread:20182 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-07-08 15:05:49,385 INFO    MainThread:20182 [wandb_init.py:init():631] backend started and connected
+2024-07-08 15:05:49,390 INFO    MainThread:20182 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-07-08 15:05:49,390 INFO    MainThread:20182 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-08 15:05:49,390 INFO    MainThread:20182 [wandb_init.py:init():720] updated telemetry
+2024-07-08 15:05:49,390 INFO    MainThread:20182 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-08 15:05:51,149 INFO    MainThread:20182 [wandb_init.py:init():796] run resumed
+2024-07-08 15:05:51,157 INFO    MainThread:20182 [wandb_run.py:_on_init():2402] communicating current version
+2024-07-08 15:05:51,193 INFO    MainThread:20182 [wandb_run.py:_on_init():2411] got version response 
+2024-07-08 15:05:51,193 INFO    MainThread:20182 [wandb_init.py:init():804] starting run threads in backend
+2024-07-08 15:05:51,283 INFO    MainThread:20182 [wandb_run.py:_console_start():2380] atexit reg
+2024-07-08 15:05:51,283 INFO    MainThread:20182 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-07-08 15:05:51,283 INFO    MainThread:20182 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-07-08 15:05:51,284 INFO    MainThread:20182 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-07-08 15:05:51,284 INFO    MainThread:20182 [wandb_init.py:init():847] run started, returning control to user process
